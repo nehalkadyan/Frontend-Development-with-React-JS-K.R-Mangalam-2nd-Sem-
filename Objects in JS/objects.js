@@ -23,3 +23,17 @@ person.salary = 50000
 console.log(person)
 
 // console.log(person.printHello())
+
+// Methods for Objects
+
+
+// to print keys -> returns an array of keys
+console.log(Object.keys(person))
+
+// to print values -> returns an array of values
+
+console.log(Object.values(person))
+
+// to print both keys and values in subarrays
+
+console.log(Object.entries(person))
